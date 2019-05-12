@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+  <form class="contactForm" action="index.html" method="post">
+    <label for="name">Your name</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Your name">
+    <br>
+    <br>
+    <label for="email">Your e-mail</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="Your e-mail">
+    <br>
+    <br>
+    <label for="message">Your message</label>
+    <br>
+    <textarea name="message" id="message" rows="8" cols="80" placeholder="please describe your question or comment"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="send">
+  </form>
+
+
+  <form class="rentCarForm" action="index.html" method="post">
+    <h3>Car rental</h3>
+    <fieldset>
+      <legend>Choose car class:</legend>
+      <input type="radio" name="car_class" id="car_class_1">Mini <br>
+      <input type="radio" name="car_class" id="car_class_2">economy <br>
+      <input type="radio" name="car_class" id="car_class_3" >compact <br>
+      <input type="radio" name="car_class" id="car_class_4">SUV <br>
+      <input type="radio" name="car_class" id="car_class_5">VAN
+    </fieldset>
+
+    <fieldset>
+      <legend>Choose optional equipment</legend>
+      <input type="checkbox" name="checkbox1" >child seat<br>
+      <input type="checkbox" name="checkbox2" >GPS<br>
+      <input type="checkbox" name="checkbox3" >DVD player<br>
+    </fieldset>
+
+    <label for="">Rental start date:</label>
+    <input type="date" name="start_date" placeholder="rrrr-mm-dd">
+
+    <br>
+
+    <label for="">Number of days:</label>
+    <input type="number" name="" value="">
+
+    <br>
+
+    <label for="">Your password:</label>
+    <input type="password" name="" value="">
+
+    <br>
+
+    <input type="submit" value="Order now!">
+  </form>
+</body>
+</html>

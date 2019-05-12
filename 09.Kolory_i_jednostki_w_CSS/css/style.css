@@ -1,0 +1,32 @@
+p span:first-child{
+  color: red;
+}
+p span:last-child{
+  color: green  ;
+}
+p span{
+ color: #aaaa00;
+}
+
+div p{
+  color: #44aa33;
+}
+div p:first-child{
+  color: hsl(250, 50%, 80%, 0.4);
+}
+div p:last-child{
+  color: rgba(175, 0, 0, 0.5);
+}
+.container{
+  background-color: #00ffff;
+  width: 200px;
+}
+
+.container .first{
+  background-color: #EEE8AA;
+  width: 50%;
+}
+.container .second{
+  background-color: #00FA9A;
+  width: 10em;
+}

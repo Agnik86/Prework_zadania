@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <table border="">
+  <tr>
+  <th>List of characters</th>
+  </tr>
+  <th scope="row">First name and last name</th>
+  <th scope="row">E-mail</th>
+  <tr>
+  <td>Jon Snow</td>
+  <td>jsnow@gmail.com</td>
+  </tr>
+  <td>Arya Stark</td>
+  <td>arya@gmail.com</td>
+  </tr>
+  <td>Eddard Stark</td>
+  <td>estark@op.pl</td>
+  </tr>
+  <td>Melisandre</td>
+  <td>meli@wp.pl</td>
+</body>
+</html>

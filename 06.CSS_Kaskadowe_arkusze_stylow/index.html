@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 6</title>
+    <!-- stworzenie linku do pliku style.css wewnnatrz folderu css -->
+    <link href='css/style.css' type="text/css" rel="stylesheet" />
+    <!-- zmiana koloru tła na różowy używając internal style -->
+    <style>
+    body{
+      background-color: pink;
+    }
+    p{
+      color: brown;
+    }
+    #first-paragraph{
+      color: green;
+    }
+    #second-paragraph{
+      color: violet;
+    }
+    .block{
+      width: 100px;
+      height: 50px;
+      border-width: 3px;
+      border-style: solid;
+      border-color: red;
+    }
+    </style>
+</head>
+
+<!-- zmiana koloru tła na zielony używajac inline style -->
+<body style="background-color: green;">
+  <p>paragraf 1</p>
+  <p>paragraf 2</p>
+  <p>paragraf 3</p>
+  <p>paragraf 4</p>
+  <p>paragraf 5</p>
+
+<!-- dodanie stylu poprzez nazwę id -->
+  <p id="first-paragraph">paragraf 6</p>
+  <p id="second-paragraph">paragraf 7</p>
+<!-- dodanie stylu używajac class -->
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.first {
+  background-color: rgba(175, 5, 14, 0.4);
+}
+/* Zmiana koloru za pomoca rgba zmienia przejrzystosc tla, podczas gdy zmiana za pomoca opacity zmienia zarowno tlo jak i to co jest wewnatrz */
+.second {
+  background-color: rgb(125,4,2);
+  opacity: 0.4;
+}
+.gradient{
+  width: 286px;
+  height: 239px;
+  background: #93cede;
+background: -moz-linear-gradient(top, #93cede 0%, #7bc0d4 33%, #75bdd1 41%, #4aa5c0 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #93cede), color-stop(33%, #7bc0d4), color-stop(41%, #75bdd1), color-stop(100%, #4aa5c0));
+background: -webkit-linear-gradient(top, #93cede 0%, #7bc0d4 33%, #75bdd1 41%, #4aa5c0 100%);
+background: -o-linear-gradient(top, #93cede 0%, #7bc0d4 33%, #75bdd1 41%, #4aa5c0 100%);
+background: -ms-linear-gradient(top, #93cede 0%, #7bc0d4 33%, #75bdd1 41%, #4aa5c0 100%);
+background: linear-gradient(to bottom, #93cede 0%, #7bc0d4 33%, #75bdd1 41%, #4aa5c0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#4aa5c0', GradientType=0 );
+}
+.image{
+  background-image: url('../images/garlic-and-pepper-close-up.jpg');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

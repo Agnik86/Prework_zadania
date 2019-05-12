@@ -1,0 +1,23 @@
+.box{
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+#first-div{
+float: left;
+}
+#second-div{
+  float: right;
+}
+.clear-fix{
+  clear: both;
+}
+p{
+  display: inline;
+  width: : 80px;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: red;
+}
